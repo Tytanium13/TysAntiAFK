@@ -109,7 +109,7 @@ while True:
     # Sending the messages
         sleep(1)
         
-        if mins == minconst + 1 and secs == secconst:
+        if mins == minconst + 5 and secs == secconst:
             MESSAGE(IGN, MSG)
             minconst = mins
             secconst = randint(0,59)
