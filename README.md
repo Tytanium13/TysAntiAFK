@@ -26,3 +26,12 @@ I plan on working on this further, such as making it output right to the GUI, bu
 ### FAQ:
 
 _I haven't been asked anything yet so I'll add to this if I do._ 
+
+
+```
+​    __ _____ _    __
+   / /|_   _| \  / /
+  / /   | |  \ \/ /
+ / /    | |   \  /
+/_/     |_|   /_/
+```
