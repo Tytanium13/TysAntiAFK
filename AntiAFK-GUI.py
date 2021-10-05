@@ -34,8 +34,8 @@ DefIGN = "e.g. PopBob"
 sg.change_look_and_feel('DarkGray')
 layoutInputs = [
     [sg.Text('Please enter your username and message to send in chat. ')],
-    [sg.Text('In the chat message box, you can use _SEC_, _MIN_, or _HOUR_')],
-    [sg.Text('to state the seconds, minutes, or hours you have been AFK for.')],
+    [sg.Text('This is my first real project, so please give criticism on')],
+    [sg.Text('my GitHub: github.com/Tytanium13/TysAntiAFK')],
     [sg.Text(' ')],
     [sg.Text('IGN:', size=(15, 1)), sg.InputText(DefIGN,tooltip='The username of the player to send a /MSG to.')],
     [sg.Text('Chat message*:', size =(15, 1)), sg.InputText("Leave blank for default.",tooltip='Message to send in chat (Leave blank for default).')],
@@ -110,7 +110,7 @@ while True:
         sleep(1)
         
         if mins == minconst + 1 and secs == secconst:
-            MESSAGE(MSG)
+            MESSAGE(IGN, MSG)
             minconst = mins
             secconst = randint(0,59)
             secs += 1
