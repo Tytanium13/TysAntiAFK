@@ -9,8 +9,8 @@ This is my first project, so feedback and criticism would be nice.
   ```pip install PySimpleGUI```
   ```pip install pyautogui```
   ```pip install os```
- 
  *these are some of the primary modules used in this script*
  
-1. Then just run the script. Simple as that. ***(Note: It's preferred to run the script via terminal. To do this, navigate to the downloaded directory, unzip the file, and enter```python3 AntiAFK-GUI.py```, that way you can see the terminal outputs too.)***
+ 
+2. Then just run the script. Simple as that. ***(Note: It's preferred to run the script via terminal. To do this, navigate to the downloaded directory, unzip the file, and enter```python3 AntiAFK-GUI.py```, that way you can see the terminal outputs too.)***
 
